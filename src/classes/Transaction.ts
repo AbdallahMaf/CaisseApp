@@ -4,12 +4,7 @@ export class Transaction {
         private person: string
         private motif: string
 
-       constructor(
-           _type: string,
-           _montant: number,
-           _person: string,
-           _motif: string
-       ){
+       constructor(_type: string, _montant: number, _person: string, _motif: string){
            this.type = _type
            this.montant = _montant
            this.person = _person
